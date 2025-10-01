@@ -1,2 +1,4 @@
 # A-Simple-Clock
 A custom 7 segment clock with DS3231 module and 8 bit microcontroller
+
+This project is a 24-hour digital clock with full date and time functionality powered by the DS3231 RTC module. The clock features a custom-built 7-segment LED display, where each digit is constructed from LED strip segments enclosed in 3D-printed housings. An 8-bit microcontroller drives the display through a multiplexed driver circuit that uses shift registers and BJT transistors to step up from 3.3V logic to 12V LEDs. The firmware, written in embedded C, communicates with the RTC over I²C protocol and handles display updates with efficient multiplexing. Designed with a focus on hardware-software integration, digital circuit design, and reliability, this project showcases end-to-end embedded system development—from circuit design and microcontroller programming to custom enclosure fabrication.
